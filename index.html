@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tic-Tac-Toe</title>
     <link rel="stylesheet" href="style.css" type="text/css"/>
-    <script src="index.js"></script>
+    <script src="index.js" defer></script>
 </head>
 <body>
-    <div id="gameboard-grid">
-        <button class="gameboard-cell"></button>
-        <button class="gameboard-cell"></button>
-        <button class="gameboard-cell"></button>
-        <button class="gameboard-cell"></button>
-        <button class="gameboard-cell"></button>
-        <button class="gameboard-cell"></button>
-        <button class="gameboard-cell"></button>
-        <button class="gameboard-cell"></button>
-        <button class="gameboard-cell"></button>
-    </div>
+    <header>
+        <h1>Tic-Tac-Toe</h1>
+    </header>
+    <main>
+        <span id="game-status">Player 1's Turn</span>
+        <div id="gameboard-container">
+            <div id="gameboard-grid"></div>
+            <div id="game-message"></div>
+        </div>
+        <button id="restart-btn">Restart</button>
+    </main>
 </body>
 </html>
